@@ -9,4 +9,5 @@ html {
 #home-section {
   background: url(../img/home.jpg) no-repeat center center fixed;
   height: 100vh;
+  color: white;
 }
