@@ -1,6 +1,11 @@
 #home-section {
-  background: url(../img/home.jpg) no-repeat center center fixed;
+  background: url(../img/home/home.jpg) no-repeat center center fixed;
   background-size: cover;
   min-height: 800px;
   color: white;
+}
+
+.fa-arrow-left,
+.fa-arrow-right {
+  color: black;
 }
