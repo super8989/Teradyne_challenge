@@ -2,6 +2,10 @@
 	font-family: 'Nunito Sans';
 }
 
+.primary-color {
+	color: #81bc00;
+}
+
 /* Search bar */
 #search-section {
 	background: rgb(33, 62, 124);
@@ -58,7 +62,12 @@
 	border: none;
 }
 
-/* Company */
+/* Industry Expertise */
+h5.primary-color {
+	font-weight: 800;
+	color: #81bc00;
+}
+
 .fa-arrow-left,
 .fa-arrow-right {
 	color: black;
