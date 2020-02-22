@@ -1,99 +1,102 @@
 * {
-  font-family: 'Nunito Sans';
-
+	font-family: 'Nunito Sans';
 }
 
 /* Search bar */
 #search-section {
-  background: rgb(33, 62, 124);
-  background: linear-gradient(90deg, rgba(33, 62, 124, 1) 0%, rgba(42, 111, 133, 1) 71%, rgba(54, 174, 143, 1) 100%);
-
+	background: rgb(33, 62, 124);
+	background: linear-gradient(
+		90deg,
+		rgba(33, 62, 124, 1) 0%,
+		rgba(42, 111, 133, 1) 71%,
+		rgba(54, 174, 143, 1) 100%
+	);
 }
 
 #search-section a {
-  color: #fff;
+	color: #fff;
 }
-
 
 /* Navigation */
 .navbar-light .navbar-brand {
-  color: #215299;
-  font-weight: 800;
-  font-size: 1.5rem;
-  text-decoration: none;
+	color: #215299;
+	font-weight: 800;
+	font-size: 1.5rem;
+	text-decoration: none;
 }
 
 .navbar-light .navbar-brand:hover {
-  color: #2d7b87;
+	color: #2d7b87;
 }
 
 .navbar .navbar-nav .nav-link {
-  color: #215299;
+	color: #215299;
 }
 
 .navbar .navbar-nav .nav-link:hover {
-  color: #2d7b87;
+	color: #2d7b87;
 }
-
-
 
 /* Showcase */
 #home-section {
-  background: url(../img/home/home.jpg) no-repeat center center fixed;
-  background-size: cover;
-  min-height: 800px;
-  color: white;
+	position: relative;
+	background: url(../img/home/home.jpg) center center;
+	background-size: cover;
+	min-height: 600px;
+	color: white;
+}
+
+#home-section .row {
+	position: relative;
+	top: 150px;
+}
+
+#home-section a {
+	font-size: 0.6rem;
+	font-weight: 700;
+	background-color: #81bc00;
+	border: none;
 }
 
 /* Company */
 .fa-arrow-left,
 .fa-arrow-right {
-  color: black;
+	color: black;
 }
-
 
 /* Application */
 #application-section {
-  padding: 2rem 0;
-  background: #333;
-  color: white
+	padding: 2rem 0;
+	background: #333;
+	color: white;
 }
-
 
 /* Invest  */
 #invest-section {
-  background: url(../img/Innovation/bg_invest.jpg) no-repeat center center fixed;
-  background-size: cover;
-  min-height: 600px;
+	background: url(../img/Innovation/bg_invest.jpg) no-repeat center center fixed;
+	background-size: cover;
+	min-height: 600px;
 }
-
-
-
-
-
-
 
 /* Responsive */
 
 /* Application */
 @media (min-width: 768px) {
-
-  .seven-cols .col-md-1,
-  .seven-cols .col-sm-1,
-  .seven-cols .col-lg-1 {
-    width: 100%;
-    *width: 100%;
-  }
+	.seven-cols .col-md-1,
+	.seven-cols .col-sm-1,
+	.seven-cols .col-lg-1 {
+		width: 100%;
+		*width: 100%;
+	}
 }
 
 @media (min-width: 992px) {
-
-  .seven-cols .col-md-1,
-  .seven-cols .col-sm-1,
-  .seven-cols .col-lg-1 {
-    width: 14.285714285714285714285714285714%;
-    *width: 14.285714285714285714285714285714%;
-  }
+	.seven-cols .col-md-1,
+	.seven-cols .col-sm-1,
+	.seven-cols .col-lg-1 {
+		width: 14.285714285714285714285714285714%;
+		*width: 14.285714285714285714285714285714%;
+	}
 }
 
 /* 14% = 100% (full-width row) divided by 7 */
