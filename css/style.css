@@ -21,6 +21,14 @@
 }
 
 
+/* Invest  */
+#invest-section {
+  background: url(../img/Innovation/bg_invest.jpg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 600px;
+}
+
+
 
 
 
