@@ -170,6 +170,31 @@ a.read-more {
 }
 
 
+/* Join the Team */
+#join-the-team {
+	box-shadow: 0px 2px 16px 1px rgba(0, 0, 0, 0.43);
+}
+
+#join-the-team img {
+	width: 100%;
+}
+
+#join-the-team a {
+	color: #5f6264;
+	text-decoration: none;
+	border-bottom: 1.5px #81bc00 solid;
+}
+
+.join-the-team-title {
+	font-weight: 600;
+	color: #54585a;
+}
+
+.join-the-team-text {
+	color: #5f6264;
+}
+
+
 /* Invest  */
 #invest-section {
 	background: url(../img/Innovation/bg_invest.jpg) no-repeat center center fixed;
