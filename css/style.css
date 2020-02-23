@@ -39,6 +39,11 @@
 	color: #2d7b87;
 }
 
+.navbar .navbar-nav .nav-link {
+	font-size: 0.8rem;
+	padding: 1rem;
+}
+
 /* Showcase */
 #home-section {
 	position: relative;
@@ -59,6 +64,65 @@
 	background-color: #81bc00;
 	border: none;
 }
+
+/* Teradyne brands */
+.teradyne-brands-box {
+	position: relative;
+	margin-top: -50px;
+	background-color: #fff;
+	box-shadow: 0px 2px 16px 1px rgba(0, 0, 0, 0.43);
+}
+
+
+
+.vl {
+	border-right: 1px solid #c6c6c6;
+	height: 75%;
+	position: relative;
+	left: 20%;
+	top: 0;
+}
+
+@media (max-width: 992px) {
+	.vl {
+		display: none;
+	}
+}
+
+
+.teradyne-brands-box-left h6 {
+	color: #81bc00;
+	font-size: 1.2rem;
+	font-weight: 800;
+	text-transform: uppercase;
+
+}
+
+.teradyne-brands-box-right h6 {
+	color: #54585a;
+	font-weight: 700;
+}
+
+.teradyne-brands-box-right p {
+	color: #696d6f;
+	font-size: 0.9rem;
+	margin: 0;
+
+}
+
+.teradyne-brands-box-right a {
+	color: #81bc00;
+	font-size: 0.6rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+
+
+
+
 
 /* Industry Expertise */
 h5.primary-color {
