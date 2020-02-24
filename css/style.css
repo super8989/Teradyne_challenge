@@ -139,6 +139,11 @@
 
 
 /* Industry Expertise */
+
+#industry-expertise {
+	margin-top: 80px;
+}
+
 h5.primary-color {
 	font-weight: 800;
 	color: #81bc00;
@@ -164,6 +169,14 @@ h5.primary-color {
 	width: 100%;
 	box-shadow: 0px 2px 16px 1px rgba(0, 0, 0, 0.43);
 	border-radius: 0.5%;
+}
+
+.industry-button {
+	font-size: 0.5rem;
+	font-weight: 700;
+	background-color: #81bc00;
+	border: none;
+	text-decoration: none;
 }
 
 /* Application */
@@ -249,6 +262,12 @@ a.read-more {
 
 
 /* Join the Team */
+#teradyne-careers {
+	position: relative;
+	margin-bottom: -50px;
+	z-index: 5;
+}
+
 #join-the-team {
 	box-shadow: 0px 2px 16px 1px rgba(0, 0, 0, 0.43);
 }
@@ -327,7 +346,55 @@ a.read-more {
 
 .fa-rotate-45 {
 	transform: rotate(45deg);
+}
 
+
+
+/* Footer */
+#footer {
+	margin: 50px 0 100px 0;
+}
+
+.footer-logo {
+	color: #215299;
+	font-weight: 800;
+	font-size: 1.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 2rem 0;
+}
+
+.footer-menu a {
+	font-size: 0.7rem;
+	color: #215299;
+	text-decoration: none;
+}
+
+.footer-menu-items {
+	padding-bottom: 0.5rem;
+}
+
+
+.subscribe-title {
+	color: #215299;
+	font-size: 0.7rem;
+	font-weight: 700;
+}
+
+.social-media-icons i {
+	color: #215299;
+}
+
+.twitter-careers a,
+.twitter-careers i {
+	color: #3cb4e5;
+	font-size: 0.8rem;
+}
+
+.copyright p,
+.copyright a {
+	color: #2f5d9f;
+	font-size: 0.7rem;
 }
 
 /* Responsive */
