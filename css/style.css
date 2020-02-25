@@ -61,16 +61,17 @@
 
 /* Showcase */
 #home-section {
-	position: relative;
-	background: url(../img/Home/home2.jpg) center center;
+	background: url(../img/Home/home2.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 600px;
-	color: white;
+	background-attachment: scroll;
+	background-position: center;
+	min-height: 700px;
 }
 
-#home-section .row {
-	position: relative;
-	top: 150px;
+#home-section .home-inner {
+	padding-top: 150px;
+	color: #fff;
 }
 
 #home-section a {
@@ -78,6 +79,18 @@
 	font-weight: 700;
 	background-color: #81bc00;
 	border: none;
+}
+
+@media (max-width: 992px) {
+	.home-inner h1 {
+		font-size: 2rem;
+	}
+}
+
+@media (max-width: 576px) {
+	.home-inner h1 {
+		font-size: 1.5rem;
+	}
 }
 
 /* Teradyne brands */
